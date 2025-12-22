@@ -1,7 +1,7 @@
 # MacOSでbits/stdc++.hのエイリアスを作成
 
-macOS の標準 C++ コンパイラでは　　
-<bits/stdc++.h> を include することができません。　　
+macOS の標準 C++ コンパイラでは  
+<bits/stdc++.h> を include することができません。  
 以下の手順で、元のコンパイラに変更を加えず　　
 ローカル環境上で <bits/stdc++.h> を扱えるようにします。
 
