@@ -47,6 +47,10 @@ clang++ -std=c++17 -I/Users/ユーザ名/cpp_include test.cpp
 ユーザ名は自分の名前に変更する
 
 ## VScode設定(include pathを以下に変更)
+コンパイルは通るがVScode上でエラー表記が出るので設定を変更  
+VScodeの画面でcmd + Shift + P  
+C/C++ Edit Configurations(UI)を選択し  
+include pathに以下を追加
 ```text
 ${workspaceFolder}/**
 /Users/ユーザ名/cpp_include
