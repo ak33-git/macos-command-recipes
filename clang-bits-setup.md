@@ -1,5 +1,8 @@
 # MacOSでbits/stdc++.hのエイリアスを作成
 
+macOS の標準 C++ コンパイラでは <bits/stdc++.h> を include することができません。
+以下の手順では、元のコンパイラに変更を加えず、ローカル環境上で <bits/stdc++.h> を扱えるようにします。
+
 ## ディレクトリ作成（include 置き場）
 ```bash
 cd ~
