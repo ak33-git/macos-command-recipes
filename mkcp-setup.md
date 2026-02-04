@@ -3,6 +3,18 @@
 以下の手順により、コマンド一つで
 A.cpp, B.cpp, C.cpp, ... を作成
 
+mkcp <dir> を実行すると、<dir> の中に次のファイルが作成される。
+
+<dir>/
+├── test.cpp
+├── A.cpp
+├── B.cpp
+├── C.cpp
+├── D.cpp
+├── E.cpp
+├── F.cpp
+└── G.cpp
+
 ## ディレクトリ作成（コマンド置き場）
 ```bash
 mkdir -p ~/bin
