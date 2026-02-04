@@ -5,14 +5,13 @@ A.cpp, B.cpp, C.cpp, ... を作成
 
 ## ディレクトリ作成（コマンド置き場）
 ```bash
-cd ~
-mkdir bin
+mkdir -p ~/bin
 ```
 
 ## mkcpを作成
 ```bash
-touch mkcp
-nano mkcp
+touch ~/bin/mkcp
+nano ~/bin/mkcp
 ```
 mkcpの中身に以下を書き込む
 ```bash
@@ -43,9 +42,8 @@ done
 ## コマンドの権限確認
 もし作成したコマンドの実行権限がない場合、以下の手順で権限を変更できる
 ```bash
-cd ~/bin
-ls -l mkcp
-chmod +x mkcp
+ls -l ~/bin/mkcp
+chmod +x ~/bin/mkcp
 ```
 
 ## 動作をテスト
