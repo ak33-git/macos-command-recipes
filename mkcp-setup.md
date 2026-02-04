@@ -9,9 +9,10 @@ cd ~
 mkdir bin
 ```
 
-## bits/stdc++.hを作成
+## mkcpを作成
 ```bash
 touch mkcp
+nano mkcp
 ```
 mkcpの中身に以下を書き込む
 ```bash
@@ -52,4 +53,6 @@ chmod +x mkcp
 cd ~/Desktop
 mkcp test
 ```
-DeskTop直下にtestフォルダと中身の書かれたA.cpp, B.cppがあればOK
+Desktop直下にtestディレクトリが作成されていればOK
+
+もし、makefileやtest.cppなどを追加したい場合はmkcpの中身を変更してください
