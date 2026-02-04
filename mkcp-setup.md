@@ -9,12 +9,12 @@ mkdir -p ~/bin
 ```
 
 ## PATHを通す
-~/binがPATHに入っていない時は以下の手順でPATHに追加してください
+~/binがPATHに入っていない時は以下の手順でPATHに追加する
 ```bash
 nano ~/.zshrc
 ```
-~/.zshrcはzshの設定ファイルです。
-中に次の文を追加してください。
+~/.zshrcはzshの設定ファイルである
+中に次の文を追加する。
 ```bash
 export PATH="$HOME/bin:$PATH"
 ```
@@ -22,10 +22,10 @@ control+xでExit
 書き込むかどうか聞かれたらyを押してEnter
 
 
-PATHの設定を反映
 ```bash
 source ~/.zshrc
 ```
+上記コマンドでPATHの設定を反映
 
 ## mkcpを作成
 ```bash
