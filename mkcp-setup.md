@@ -8,6 +8,17 @@ A.cpp, B.cpp, C.cpp, ... を作成
 mkdir -p ~/bin
 ```
 
+## PATHを通す
+~/binがPATHに入っていない時は以下の手順でPATHに追加してください
+```bash
+nano ~/.zshrc
+```
+~/.zshrcはzshの設定ファイルです。
+中に次の文を追加してください。
+```bash
+export PATH="$HOME/bin:$PATH"
+```
+
 ## mkcpを作成
 ```bash
 touch ~/bin/mkcp
