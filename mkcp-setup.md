@@ -18,6 +18,14 @@ nano ~/.zshrc
 ```bash
 export PATH="$HOME/bin:$PATH"
 ```
+control+xでExit
+書き込むかどうか聞かれたらyを押してEnter
+
+
+PATHの設定を反映
+```bash
+source ~/.zshrc
+```
 
 ## mkcpを作成
 ```bash
